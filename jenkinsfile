@@ -8,7 +8,7 @@ pipeline {
 		      }}
 		stage('Build') {
 	           steps {
-			  sh '/home/shantanu/Documents/jenkins/mvn install'
+			  sh '/home/shantanu/Documents/jenkins/apache-maven-3.8.7-bin/apache-maven-3.8.7/bin/mvn install'
 	                 }}
 		stage('Deployment'){
 		    steps {
